@@ -1,0 +1,58 @@
+@charset "utf-8";
+@media screen and (min-width: 668px) {
+    header h1{
+        display: block;
+        margin-top: 40px;
+        padding: 15px;
+    }
+    #resp{
+        display: none;
+    }
+    img{
+        width: 180px;
+    }
+    .para{
+        font-size: 1.2em;
+    }
+    menu{
+        display: block;
+        background-color: #5900ac;
+        
+    }
+    menu ul{
+        flex-direction: row;
+        justify-content: space-evenly;
+        transition: all .5s;
+    }
+    menu ul li{
+        border: none;
+    }
+    main{
+        margin: auto;
+    }
+    .ar01{
+        flex-wrap: nowrap;
+    }
+    .s01{
+        background: url(../imagens/cam-s1200.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 774px;
+        margin: 5px;
+    }
+
+    .s02{
+        background: url(../imagens/switch-s1200.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 774px;
+        margin: 5px;
+    }
+    .s03{
+        background: url(../imagens/switch1200.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 774px;
+        margin: 5px;
+    }
+}
